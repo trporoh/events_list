@@ -1,0 +1,51 @@
+is_global = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EventsCity
+build_property.ProjectDir = C:\Users\пк\Source\Repos\VisualProgramming_LAB\EventsCity\
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/CultureView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/EducationView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/ExcursionView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/KidsView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/LifestyleView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/OnlineView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/PartyView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/ShowView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Views/Pages/SportView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/пк/Source/Repos/VisualProgramming_LAB/EventsCity/Events.xml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

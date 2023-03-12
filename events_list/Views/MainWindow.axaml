@@ -1,0 +1,118 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:EventsCity.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EventsCity.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="EventsCity">
+
+	<Design.DataContext>
+		<!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<TabControl>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/kidsIcon.png">
+					</Image>
+					<TextBlock Grid.Column ="1" FontSize="15" Margin ="15"  Text ="Для детей"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Kids}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/sportIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Cпорт"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Sport}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/cultureIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Культура"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Culture}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/excursionIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Экскурсии"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Excursion}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/lifestyleIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Образ жизни"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Lifestyle}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/partyIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Вечеринки"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Party}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/educationIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Образование"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Education}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/onlineIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Онлайн"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Online}"/>
+		</TabItem>
+
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="25,*">
+					<Image Grid.Column ="0" Height ="20" Width="20" Source="../Assets/Icons/showIcon.png">
+					</Image>
+					<TextBlock FontSize="15" Margin ="15" Grid.Column ="1" Text ="Шоу"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ContentControl Content = "{Binding Show}"/>
+		</TabItem>
+	</TabControl>
+
+</Window>
